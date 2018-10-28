@@ -13,5 +13,66 @@
       <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
       <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
     </Filter>
+    <Filter Include="头文件\Bank">
+      <UniqueIdentifier>{74b2e187-4418-4208-b9d0-35e93425c761}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="头文件\User">
+      <UniqueIdentifier>{9213b56e-2fb7-4b2a-839e-30c435269a9f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="头文件\dataStruture">
+      <UniqueIdentifier>{010e4fb3-d641-4f56-a48c-51802cb0dad0}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="simulator.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="BankAll.h">
+      <Filter>头文件\Bank</Filter>
+    </ClInclude>
+    <ClInclude Include="bankwindow.h">
+      <Filter>头文件\Bank</Filter>
+    </ClInclude>
+    <ClInclude Include="NormalBankWindow.h">
+      <Filter>头文件\Bank</Filter>
+    </ClInclude>
+    <ClInclude Include="OfficialBankWindow.h">
+      <Filter>头文件\Bank</Filter>
+    </ClInclude>
+    <ClInclude Include="user.h">
+      <Filter>头文件\User</Filter>
+    </ClInclude>
+    <ClInclude Include="UserAll.h">
+      <Filter>头文件\User</Filter>
+    </ClInclude>
+    <ClInclude Include="OfficialUser.h">
+      <Filter>头文件\User</Filter>
+    </ClInclude>
+    <ClInclude Include="NormalUser.h">
+      <Filter>头文件\User</Filter>
+    </ClInclude>
+    <ClInclude Include="VipUser.h">
+      <Filter>头文件\User</Filter>
+    </ClInclude>
+    <ClInclude Include="VipBankWindow.h">
+      <Filter>头文件\Bank</Filter>
+    </ClInclude>
+    <ClInclude Include="listnode.h">
+      <Filter>头文件\dataStruture</Filter>
+    </ClInclude>
+    <ClInclude Include="banklist.h">
+      <Filter>头文件\dataStruture</Filter>
+    </ClInclude>
+    <ClInclude Include="Structure.h">
+      <Filter>头文件\dataStruture</Filter>
+    </ClInclude>
+    <ClInclude Include="userqueue.h">
+      <Filter>头文件\dataStruture</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="main.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
   </ItemGroup>
 </Project>

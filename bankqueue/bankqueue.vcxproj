@@ -23,6 +23,7 @@
     <ProjectGuid>{9CD9BF59-F4CB-4A95-B2DF-9941B4C5D32A}</ProjectGuid>
     <RootNamespace>bankqueue</RootNamespace>
     <WindowsTargetPlatformVersion>10.0.16299.0</WindowsTargetPlatformVersion>
+    <ProjectName>BankQueue</ProjectName>
   </PropertyGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">
@@ -115,6 +116,24 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
+    <ClInclude Include="BankAll.h" />
+    <ClInclude Include="banklist.h" />
+    <ClInclude Include="bankwindow.h" />
+    <ClInclude Include="listnode.h" />
+    <ClInclude Include="NormalBankWindow.h" />
+    <ClInclude Include="NormalUser.h" />
+    <ClInclude Include="OfficialBankWindow.h" />
+    <ClInclude Include="OfficialUser.h" />
+    <ClInclude Include="simulator.h" />
+    <ClInclude Include="Structure.h" />
+    <ClInclude Include="user.h" />
+    <ClInclude Include="UserAll.h" />
+    <ClInclude Include="userqueue.h" />
+    <ClInclude Include="VipBankWindow.h" />
+    <ClInclude Include="VipUser.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="main.cpp" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
